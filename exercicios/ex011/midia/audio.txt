@@ -1,0 +1,5 @@
+<audio preload="metadata" autoplay controls loop>
+	<source scr="nome da midia" type="audio/mpeg">
+	<source scr="nome da midia" type="audio/ogg">
+	<source scr="nome da midia" type="audio/wav">
+</audio>
