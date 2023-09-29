@@ -24,12 +24,20 @@
         background-color: grey;
         color: white;
     }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
 </style>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <!--
             ANATOMIA PARA TABELAS GRANDES
             TABLE
+                CAPTION
                 THEAD
                     TR, TD, TH
                 TBODY
@@ -38,29 +46,30 @@
                     TR, TD, TH
     -->
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td>45 919 049</td>
+                <td>45.919.049</td>
             </tr>
             <tr>
                 <td>São Paulo</td>
-                <td>21 168 791</td>
+                <td>21.168.791</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td>17 264 943</td>
+                <td>17.264.943</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td><strong>80.000.000</strong></td>
             </tr>
         </tfoot>
