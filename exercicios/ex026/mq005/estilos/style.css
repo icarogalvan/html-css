@@ -23,6 +23,11 @@ menu {
     display: block;
 }
 
+/* menu li {
+    display: inline-block;
+    align-items: center;
+} */
+
 menu > ul {
     list-style-type: none;
 }
